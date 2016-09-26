@@ -15,7 +15,7 @@ options=('!emptydirs')
 source=("git+https://github.com/rust-lang/cargo.git#tag=$pkgver"
          "https://raw.githubusercontent.com/gzmorell/cargo-arm-pkgbuild/master/platforms.patch")
 md5sums=('SKIP'
-         '86b30dbbf5324ae3c587b27975f557c7')
+         '436aab9a4b8aa9c75af96ee14f0da014')
 
 prepare() {
   for cmd in init update; do (cd "$pkgname"; git submodule "$cmd"); done
