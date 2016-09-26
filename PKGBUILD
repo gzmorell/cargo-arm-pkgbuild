@@ -12,12 +12,15 @@ license=('APACHE' 'MIT' 'custom')
 depends=('curl' 'rust')
 makedepends=('git' 'python' 'cmake')
 options=('!emptydirs')
-source=("git+https://github.com/rust-lang/cargo.git#tag=$pkgver")
+source=("git+https://github.com/rust-lang/cargo.git#tag=$pkgver"
+         "https://raw.githubusercontent.com/gzmorell/cargo-arm-pkgbuild/master/platforms.patch")
 md5sums=('SKIP')
 
 prepare() {
   for cmd in init update; do (cd "$pkgname"; git submodule "$cmd"); done
   sed 's^share/doc^share/licenses^g' -i "$pkgname/Makefile.in"
+  cd "$pkgname"
+  patch -p1 -i ../platforms.patch
 }
 
 build() {
