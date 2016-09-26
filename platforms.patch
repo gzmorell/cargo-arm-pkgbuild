@@ -1,0 +1,25 @@
+diff --git a/src/snapshots.txt b/src/snapshots.txt
+index 30ec19c..b03af4b 100644
+--- a/src/snapshots.txt
++++ b/src/snapshots.txt
+@@ -1,3 +1,20 @@
++2016-07-04
++  cargo-nightly-aarch64-unknown-linux-gnu.tar.gz 267a36c54d47f8418b9187eb0cd62e4269885574
++  cargo-nightly-arm-unknown-linux-gnueabihf.tar.gz a903aa67533941a848231b0f63f92aaf4ec02887
++  cargo-nightly-arm-unknown-linux-gnueabi.tar.gz b69e3977f51c9713700bf3a11f1ae0c7e899a738
++  cargo-nightly-armv7-unknown-linux-gnueabihf.tar.gz e879a4396ecd7f5a934c02e62b07c3c559f13125
++  cargo-nightly-i686-apple-darwin.tar.gz 79366e6173051bb8d7b1c4d8d21b6fab394b1b0a
++  cargo-nightly-i686-pc-windows-gnu.tar.gz 9e5edb7a9119c56457be1fdc40212f6826e84fa3
++  cargo-nightly-i686-pc-windows-msvc.tar.gz 09c09821acfe66ff7066ae9fb4dd5ddff2e3e096
++  cargo-nightly-i686-unknown-freebsd.tar.gz dbdc3fba782783554f8dcf1f280468aca20527ee
++  cargo-nightly-i686-unknown-linux-gnu.tar.gz 0f51174ee69f5b3d6303b7266b778bacc6e12fbe
++  cargo-nightly-x86_64-apple-darwin.tar.gz 6fba2ef22dcefddb02cc0a9d33028da13896d338
++  cargo-nightly-x86_64-pc-windows-gnu.tar.gz 94b0bf61bb18e842dce627f35f79318b0c856b7e
++  cargo-nightly-x86_64-pc-windows-msvc.tar.gz 1776044b6a5aa64e4517c7703d11b3be869e1aea
++  cargo-nightly-x86_64-unknown-freebsd.tar.gz b54a4e4b5f4d2ecc4be4f2d03dd38cfc9497ec5e
++  cargo-nightly-x86_64-unknown-linux-gnu.tar.gz e142c5af57432846cf4fbb95d9cce4613765e319
++  cargo-nightly-x86_64-unknown-netbsd.tar.gz b8051e04568fe015db92efa1cf2c2db45e1e18a3
++
+ 2016-03-21
+   linux-i386 ac401c16ff53e0c51b88707579b4f95d7d4c4763
+   linux-x86_64 84266cf626ca4fcdc290bca8f1a74e6ad9e8b3d9
